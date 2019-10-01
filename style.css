@@ -45,11 +45,18 @@ section:not(:nth-of-type(2n)){
     margin: auto;
 }
 
-section article{
+section:first-child article{
     width: 15vh;
     text-align: left;
     display: inline-block;
+}
+section:first-child button{
+    background-color: brown;
+    color: white;
+}
 
+h2{
+    font-size: 2rem;
 }
 
 section img{
@@ -60,4 +67,84 @@ section img{
 section:nth-of-type(2n){
     text-align: center;
     background-color: white;
+    padding: 3rem 40vh;
+}
+
+form{
+    width: 47vh;
+    display: inline-block;
+    padding: 0 rem;
+    margin-bottom: 3rem;
+}
+form input{
+    margin-bottom: .5rem;
+}
+
+h4{
+    text-align: left;
+    color: gray;
+}
+
+h3{
+    margin-left: 2rem;
+}
+
+section:last-child article{
+    width: 40vh;
+    margin: 5rem 0 0 0;
+    display: inline-block;
+    text-align: left;
+    margin-left: 7rem;
+    vertical-align: top;
+}
+section:last-child p{
+    color: gray;
+}
+section:last-child article span{
+    font-weight: bold;
+    margin-right: 100%;
+    color: black;
+}
+label{
+    display: block;
+    text-align: left;
+    color: gray;
+}
+#firstname, #lastname{
+    width: 100%
+}
+input, textarea{
+    width: 100%;
+    padding: .2rem;
+    border-radius: 5px;
+    border: 1px lightgray solid;
+}
+div{
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+}
+
+button{
+    padding: .4rem;
+    width: 7rem;
+    border-radius: 40px;
+    float: left;
+}
+section:last-child button{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: brown;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: .5rem 0;
+}
+
+i{
+    color: gray;
+    margin-right: 2rem;
 }
