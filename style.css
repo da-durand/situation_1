@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+header{
+    background-color: rgb(240, 240, 240);
+}
+
+nav{
+    width: 100vh;
+    margin: auto;
+}
+
+h1{
+    color: brown;
+    display: inline-block;
+}
+h1 span{
+    font-weight: normal;
+}
+
+ul{
+    float: right;
+    padding: 0;
+    width: 25%;
+}
+
+li{
+    display: inline-block;
+    margin-left: 5%;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: brown;
+}
+
+section:not(:nth-of-type(2n)){
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    width: 100vh;
+    margin: auto;
+}
+
+section article{
+    width: 15vh;
+    text-align: left;
+    display: inline-block;
+
+}
+
+section img{
+    max-width: 20%;
+}
+
+
+section:nth-of-type(2n){
+    text-align: center;
+    background-color: white;
+}
